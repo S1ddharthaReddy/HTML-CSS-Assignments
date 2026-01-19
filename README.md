@@ -8,4 +8,10 @@ These are HTML/CSS Assignments, Here's is the structure of
 
 ---
 
+# Assignments from Harkirat
+1. Sign up page of ElevenLabs
+2. Contact sales page of ElevenLabs
+3. Clone 100xDevs
+
+
 Happy Coding! 🧡
