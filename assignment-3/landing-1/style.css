@@ -1,0 +1,160 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+}
+
+.main {
+    margin: 0px 120px;
+    padding: 32px 16px;
+}
+
+.navbar {
+    padding: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav2 {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    border-radius: 10px;
+    box-shadow:
+        0 0 6px rgba(255, 77, 166, 0.6),
+        0 0 12px rgba(255, 77, 166, 0.4);
+}
+
+.navlink {
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(207, 194, 205);
+    font-weight: bold;
+}
+
+.navbutton {
+    padding: 8px 12px;
+    border: none;
+    background-color: rgb(190, 29, 83);
+    color: rgb(207, 194, 205);
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.navbutton:hover {
+    cursor: pointer;
+}
+
+.mainer {
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    margin: 128px auto 0;
+    max-width: 650px;
+    gap: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(207, 194, 205);
+    text-align: center;
+}
+
+.header {
+    font-size: 48px;
+    color: rgb(207, 194, 205);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.para {
+     text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button1{
+    background-color: rgb(190, 29, 83);
+    padding: 8px 16px;
+    border: none;
+    border-radius: 9px;
+    width: 160px;
+    height: 40px;
+    color: rgb(207, 194, 205);
+    font-weight: bold;
+}
+
+.button2{
+    background-color: rgb(50, 45, 47);
+    padding: 8px 16px;
+    border: rgb(89, 80, 80) solid 1px;
+    border-radius: 9px;
+    width: 160px;
+    height: 40px;
+    color: rgb(207, 194, 205);
+    font-weight: bold;
+}
+
+.heroimage::before {
+     content: "";
+    position: absolute;
+    top: 480px;              /* adjust vertical position */
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 520px;
+    height: 260px;           /* half of width → semi-circle */
+
+    background: radial-gradient(
+        ellipse at center,
+        rgba(190, 29, 83, 0.9) 0%,
+        rgba(190, 29, 83, 0.6) 40%,
+        rgba(190, 29, 83, 0.3) 60%,
+        transparent 75%
+    );
+
+    border-radius: 0 0 520px 520px; /* 👈 semi-circle shape */
+    filter: blur(45px);
+
+    z-index: -1;             /* BEHIND image */
+    pointer-events: none;
+}
+
+.smallbanner {
+    font-size: 12px;
+    border: 1px solid rgb(125, 115, 115);
+    height: 22px;
+    width: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    margin: 0 auto;
+}
+
+
+
+
